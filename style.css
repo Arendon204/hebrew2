@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    margin-top:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+/* coolor scheme
+153131
+
+e6af2e
+
+e3170a
+
+44001a
+
+d6e3f8
+
+media querry
+
+https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/
+
+*/
+
+nav {
+    position: fixed;
+    z-index: 100;
+    width: 0rem;
+    background-color: red;
+    opacity: 0.2;
+}
+
+nav:hover{
+    transition: 500ms;
+    width: 20rem;
+    opacity: 1;
+}
+
+@media (max-width) {
+    
+    
+}
